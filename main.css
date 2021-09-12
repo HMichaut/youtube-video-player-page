@@ -1,0 +1,202 @@
+.navbar {
+  height: 56px;
+  background-color: #fff;
+  display: flex;
+  padding: 0 16px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.appicon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 240px;
+}
+.menu {
+  height: 24px;
+  width: 24px;
+}
+.youtubeicon {
+  height: 20px;
+  width: 90px;
+  padding: 10px 14px 10px 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.searchbar {
+  display: flex;
+  flex-direction: row;
+}
+.search {
+  border: 1px;
+  border-color: #ccc;
+  border-style: solid;
+  height: 32px;
+  min-width: 640px;
+}
+.spansearch {
+  font-family: arial;
+  color: #ccc;
+  vertical-align: middle;
+  margin: 9px;
+  margin-left: 15px;
+  display:inline-block;
+}
+.glass {
+  border: 1px;
+  border-color: #ccc;
+  border-style: solid;
+  background-color: #f8f8f8;
+  height: 32px;
+  width: 65px;
+}
+.style-scope {
+  height: 24px;
+}
+.iconbar {
+  display: flex;
+  flex-direction: row;
+  width: 225px;
+  align-items: center;
+}
+.avatar {
+  border-radius: 50%;
+}
+.maindwindow {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.leftwindow {
+  flex: auto;
+  width: 100%;
+  height: 1000px;
+  padding: 24px;
+
+}
+.rightwindow {
+  flex: auto;
+  width: 800px;
+  padding-top: 10px;
+}
+.videoplayer {
+  width: 1040px;
+  height: 650px;
+}
+h1 {
+  font-family: Arial, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  height: 26px;
+}
+.viewbar {
+  height: 26px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Arial, sans-serif;
+}
+.viewspan {
+  height: 26px;
+}
+.likebar {
+  height: 26px;
+  width: 450px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Arial, sans-serif;
+  padding-bottom: 20px;
+}
+
+.profilesection {
+  border-color: lightgray;
+  border-left: 0;
+  border-right: 0;
+  border-style: solid;
+  padding-top: 20px;
+}
+
+.profilebar {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profilebox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.profiletitle {
+  font-family: Arial, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.subscribernumber {
+  font-family: Arial, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.susbcribe {
+  height: 36px;
+  background-color: #CC0000;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  justify-content: center;
+  border-radius: 2px;
+
+}
+.spanprofile {
+  font-family: arial;
+  font-size: 1rem;
+  vertical-align: middle;
+  margin: 9px;
+  margin-left: 9px;
+  display:inline-block;
+}
+
+.videodescription {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 94px;
+  justify-content: space-evenly;
+  margin-left: 20px;
+}
+
+.suggestion {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 94px;
+  margin-top: 10px;
+}
+
+.spantitle {
+  font-size: 1.4rem;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.spanuploader {
+  font-size: 0.8rem;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.spanview {
+  font-size: 0.8rem;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+}
